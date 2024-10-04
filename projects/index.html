@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!--meta tags for web engine and embeds--> 
+    
+    <link rel="icon" href="/img/logo.png" type="image/png"/>
+    
+    <meta content="Synk_" property="og:title"/>
+    <meta name="title" content="Synk_"/>
+    <meta
+      content="My portfolio. Here you can find all of my projects, or contact me for some work!"
+      property="og:description"
+    />
+    <meta
+      name="description"
+      content="My portfolio. Here you can find all of my projects, or contact me for some work!"
+    />
+    <meta name="theme-color" content="#FF8400"/>
+    <meta content="/img/logo.png" property="og:image"/>
+    <meta name="author" content="Synk_"/>
+    <meta name="color-scheme" content="light dark"/>
+        
+    <title>Synk_</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link type="application/json+oembed" href="./oembed.json"/>
+</head>
+<body class="scroll">
+    <script>
+        function kings() {
+            if (confirm("Disclaimer: I do not own KingsMC. You can see my work on their server though. Click OK to visit their website")) {
+                window.open("https://kingsmc.net");
+            }
+        }
+
+        function visitKings() {
+            document.getElementById("linklogger").innerHTML = "<a href=\"https://kingsmc.net\">Click here!</a>";
+        }
+    </script>
+    <nav>
+        <h1 class="proj">Projects</h1> 
+    </nav>
+    <div class="pcontainer">
+        <a href="/"><div class="pbox" onclick="link('https://synkdev.cc')">
+            <p class="ptitle">Portfolio</p>
+            <img src="/img/logo.png" alt="You're visiting it!" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/deathlogger"><div class="pbox">
+            <p class="ptitle">DeathLogger</p>
+            <img src="/img/deathlogger.jpg" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a><div class="pbox" onclick="kings()">
+            <p class="ptitle">KingsMC</p>
+            <img src="https://kingsmc.net/img/logo.png" alt="" class="pimage" width="306px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/synklibs"><div class="pbox">
+            <p class="ptitle">SynkLibs</p>
+            <img src="/img/logo.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/abilityitemsapi"><div class="pbox">
+            <p class="ptitle">AbilityItemsAPI</p>
+            <img src="/img/aia.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/chatwatchdog"><div class="pbox">
+            <p class="ptitle">ChatWatchdog</p>
+            <img src="/img/cwd.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://github.com/SynkMC/ChatWatchdogAPI"><div class="pbox">
+            <p class="ptitle">ChatWatchdogAPI</p>
+            <img src="/img/cwd.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/nexusauctionhouse"><div class="pbox">
+            <p class="ptitle">NexusAuctionHouse</p>
+            <img src="/img/nah.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/kings-anvil"><div class="pbox">
+            <p class="ptitle">King's Anvil</p>
+            <img src="/img/kingsanvil.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+        <a href="https://modrinth.com/plugin/serverveil"><div class="pbox">
+            <p class="ptitle">ServerVeil</p>
+            <img src="/img/sv.png" alt="" class="pimage" width="170px" height="170px">
+        </div></a>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
